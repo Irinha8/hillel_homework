@@ -1,5 +1,3 @@
-
-
 """
 Все решения для заданий нужно писать между строками BEGIN и END
 Задание 1:
@@ -30,21 +28,16 @@ Winter came for the House of Frey.
 используя конкатенацию слов
 """
 
-
-
-
 #  BEGIN
 print("Winter" + " " + "came" + " " + "for" + " " + "the" + " " + "House" + " " + "of" + " " + "Frey.")
 
 #  END
-
 
 """
 Задание 4:
 Присвойте переменной word значение "First text" и напечатайте ее
 Поменяйте значние переменной word на "Second text" и напечатайте ее
 """
-
 #  BEGIN
 word = "First text"
 print(word)
@@ -52,7 +45,6 @@ word = "Second text"
 print(word)
 
 #  END
-
 
 """
 Задание 5:
@@ -63,7 +55,6 @@ Maruf
 >> Hello, Maruf!
 Программа должная задавать вопрос What's your name?, считать имя и потом напечатать приветсвенное сообщение
 """
-
 #  BEGIN
 print("What's your name?")
 name = input()
