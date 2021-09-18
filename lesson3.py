@@ -181,16 +181,6 @@ for symbol in s:
         vocals += 1
 print(len(s) - vocals)
 
-# но можно и просто
-
-s = input()
-c = 0
-for symbol in s:
-    if symbol in "bcdfghjklmnpqrstvwxz":
-        c += 1
-print(c)
-
-#  END
 
 
 """
