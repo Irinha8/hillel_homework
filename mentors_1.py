@@ -60,5 +60,5 @@ def secret_names(real_names: list, secret_names: list):
 
     return list(map(lambda elem: random.choice(secret_names), real_names))
 
-print(*secret_names(['Iren', 'Alex'], ['Agent Carter', 'Hulk', 'IronMan']))
-print(*secret_names(['Iren', 'Alex', 'Ann'], ['Flash', 'Wonder Woman', 'Harley Queen', 'Batman', 'Joker']))
+print(*secret_names(['Iren', 'Alex'], ['Agent_Carter', 'Hulk', 'IronMan'])) 
+print(*secret_names(['Iren', 'Alex', 'Ann'], ['Flash', 'Wonder_Woman', 'Harley_Queen', 'Batman', 'Joker']))
