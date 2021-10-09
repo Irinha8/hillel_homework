@@ -12,5 +12,5 @@ while answer != "Y":
     answer = input()
     counter += 1
     numbers.pop(0)
-    if answer == "Y":
-        print(f"You've used {counter} tries!")
+if answer == "Y":
+    print(f"You've used {counter} tries!")
