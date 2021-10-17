@@ -21,7 +21,7 @@ class PatientsDb:
         return list(self.patients.values())
 
     def get_patient_by_id(self, patient_id):
-        pass
+        return self.patients.get(patient_id)
 
 
 def main():
@@ -51,7 +51,14 @@ def main():
                 print(patient.id, patient.last_name, patient.first_name, patient.age, patient.address)
 
         if command == "get_by_id":
-            pass
+            patient_id = int(input("Enter id: "))
+            patient = db.get_patient_by_id(patient_id)
+            if not patient:
+                print(f"This patients with id {patient_id} is not found")
+            else:
+                print(patient.last_name, patient.first_name, patient.age, patient.address)
+
+
 
 
 if __name__ == '__main__':
