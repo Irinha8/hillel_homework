@@ -4,7 +4,7 @@ numbers = []
 while len(numbers) < 100:
     x = randint(1, 100)
     if x not in numbers:
-        numbers.append(x) # cоздала список случайных чисел от 0 до 100, которые не повторяются
+        numbers.append(x) # cоздала список случайных чисел от 1 до 100, которые не повторяются
 answer = "no"
 while answer != "yes":
     print(f"Is {x} guessed number?")
