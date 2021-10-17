@@ -10,12 +10,13 @@ class Vector:
         return (self.x + other.x), (self.y + other.y)
 
     def __sub__(self, other):
-        return self.x - other.x, self.y - other.y
+        return (self.x - other.x), (self.y - other.y)
 
     def __mul__(self, other):
-        return self.x * other, self.y * other
+        return (self.x * other), (self.y * other)
 
 
+"""
 v1 = Vector(int(input("Введите координату x1: ")), int(input("Введите координату y1: ")))
 v2 = Vector(int(input("Введите координату x2: ")), int(input("Введите координату y2: ")))
 
@@ -25,3 +26,4 @@ print(v2)
 print(v1 + v2)
 print(v1 - v2)
 print(v1 * k)
+"""
