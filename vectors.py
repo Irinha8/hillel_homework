@@ -15,15 +15,3 @@ class Vector:
     def __mul__(self, other):
         return Vector((self.x * other), (self.y * other))
 
-
-"""
-v1 = Vector(int(input("Введите координату x1: ")), int(input("Введите координату y1: ")))
-v2 = Vector(int(input("Введите координату x2: ")), int(input("Введите координату y2: ")))
-
-k = int(input("Введите число:"))
-print(v1)
-print(v2)
-print(v1 + v2)
-print(v1 - v2)
-print(v1 * k)
-"""
