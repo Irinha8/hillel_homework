@@ -7,7 +7,7 @@ class Vector:
         return f'Vector(({self.x}, {self.y}))'
 
     def __add__(self, other):
-        return Vector((self.x + other.x), (self.y + other.y))
+        return (self.x + other.x), (self.y + other.y)
 
     def __sub__(self, other):
         return Vector((self.x - other.x), (self.y - other.y))
