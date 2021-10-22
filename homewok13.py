@@ -1,4 +1,3 @@
-
 path = "./in.txt"
 reader = open(path, mode="r")
 content = reader.read()
