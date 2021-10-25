@@ -8,8 +8,3 @@ path = "./out.txt"
 writer = open(path, mode='w')
 result = writer.write(res)
 writer.close()
-
-
-
-
-
