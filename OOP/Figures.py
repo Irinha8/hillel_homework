@@ -50,5 +50,3 @@ class Square(Figure):
     def area(self):
         return self.a * self.b
 
-figure = Circle(3)
-print(figure.area())
